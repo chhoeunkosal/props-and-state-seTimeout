@@ -18,19 +18,25 @@
 .navbar-default .color_drop>li>a {
     color: #211f1f;
 }
-.padding{
-    padding: 40px 45px;
+.text-color h4{
+    color: blueviolet
 }
-h4 {
-    color: white;
-    text-align: center;
+.text-color h4:hover{
+    color:brown;
 }
-a{
-    color:black;   
+.space{
+   margin-right: 100px;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
-.border{
- 
-   background-color: whitesmoke
+.space img{
+   margin-right: 100px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+} 
+.back{
+    background-color: lightslategray;
 }
+
 
    

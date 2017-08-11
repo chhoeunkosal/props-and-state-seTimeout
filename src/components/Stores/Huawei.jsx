@@ -1,9 +1,10 @@
 import React from 'react'
-export default class Oppo extends React.Component{
+
+export default class Huawei extends React.Component{
     render(){
         return(
             <div>
-                <h5>Oppo</h5>
+                Huawei
             </div>
         )
     }

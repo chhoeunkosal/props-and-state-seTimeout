@@ -1,9 +1,9 @@
 import React from 'react'
-export default class Color extends React.Component{
+export default class Contact extends React.Component{
     render(){
         return(
             <div>
-                <h3>Color</h3>
+                Contact
             </div>
         )
     }

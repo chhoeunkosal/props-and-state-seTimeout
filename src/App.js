@@ -1,14 +1,26 @@
 import React, { Component } from 'react';
-import Header from './components/Headers/Header'
-import Content from './components/Contents/Content'
+import Home from './components/HomePages/Home';
+import RouteHome from './components/HomePages/RouteHome';
+import Footer from './components/Footers/Footer';
+// import Content from './components/Contents/Content';
+// import ContentRoute from './components/Contents/ContentRoute';
 
+// import RouteStore from './components/Stores/RouteStore'
+// import Store from './components/Stores/Store'
 import './App.css';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <Header/>
-          <Content/>
+        {/*<Content/>
+      <ContentRoute/>*/}
+
+        {/*<Store/>
+        <RouteStore/>*/}
+        <Home />
+        <RouteHome />
+        <Footer />
       </div>
     );
   }

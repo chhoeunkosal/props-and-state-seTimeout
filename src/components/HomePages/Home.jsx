@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link,} from 'react-router-dom';
+import { Link, } from 'react-router-dom'
 export default class Content extends React.Component {
     render() {
         return (
@@ -16,6 +16,24 @@ export default class Content extends React.Component {
                         </nav>
                     </div>
                 </div>
+
+                {/*<div className="row">
+                    <div className="col-sm-12">
+                        <video width="100%" controls autoplay loop>
+                            <source src="iPhone7.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>*/}
+
+                {/*<div className="row">
+                    <div className="col-sm-12">
+                        <ul className="nav nav-pills">
+                            <li role="presentation"><Link to="/Apple">APPLE</Link></li>
+                            <li role="presentation"><Link to="/Huawei">HUAWEI</Link></li>
+                            <li role="presentation"><Link to="/Samsung">SAMSUNG</Link></li>
+                        </ul>
+                    </div>
+                </div>*/}
             </div>
         )
     }
